@@ -1,0 +1,30 @@
+include ./mixins.pug
+
+<!DOCTYPE html>
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Portfolio | main page
+  body
+    .wrapper
+      .maincontent
+        .maincontent__welcome-bg 
+          include componets/parallax
+            .container
+              include componets/header
+              include componets/welcome-section
+          include componets/hero
+        include componets/skill
+        .container
+        include componets/works
+        include componets/maincontent__autumn-bg
+          .container
+            include componets/reveiws
+            include componets/feedback
+        include componets/footer
+        
+        +image('content/user.jpg', 'user-pic')
+        +icon('link', 'link-class')
+        .icon-bg
