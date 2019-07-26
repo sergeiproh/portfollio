@@ -1,6 +1,6 @@
 [
     {
-      "skillsGroup": "Frontend",
+      "skillsGroup": "Front-end",
       "skills": {
         "html5": 25,
         "css3": 15,
@@ -9,7 +9,7 @@
       }
     },
     {
-      "skillsGroup": "Backend",
+      "skillsGroup": "Workflow",
       "skills": {
         "GIT": 30,
         "Terminal": 25,

@@ -54,8 +54,8 @@ const info = {
 };
 
 new Vue({
-  template: "#slider-container",
   el: "#slider-component",
+  template: "#slider-container",
   components: {
     display,
     info

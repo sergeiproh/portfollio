@@ -1,16 +1,18 @@
 footer.footer
   .footer__wrap
     .footer__year 2019
-    .footer__name Сергей Проходцев
+    .footer__userinfo
+      .footer__name Сергей Проходцев
       .footer__description Личный сайт веб-разработчика
   .footer__content
       include main-menu
-      .footer__block
-        p.footer__text.text Этот сайт я сделал в рамках Обучения в школе онлайн образования Loftschool. 
-        .footer__socials
-          include socials
-          +socials('footer')
-      .footer__block
-        blockguote.footer__blockguote
-          p.footer__blockguote-text.text Пишите код так, как-буто вы мэтр своего дела. 
-          cite.footer__author Мудрые изречения
+      .footer__info
+        .footer__block
+          p.footer__text.text Этот сайт я сделал в рамках Обучения в школе онлайн образования Loftschool. 
+          .footer__socials
+            include socials
+            +socials('footer')
+        .footer__block
+          blockguote.footer__blockguote
+            p.footer__blockguote-text.text Пишите код так, как-буто вы мэтр своего дела. 
+            cite.footer__author Мудрые изречения
